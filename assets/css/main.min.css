@@ -1127,6 +1127,10 @@ body {
     width: 200px;
     height: 78px;
     filter: grayscale(100%); }
+    @media only screen and (max-width: 500px) {
+      .galileo-logo img {
+        width: 133.3px;
+        height: 52px; } }
 
 .copyright {
   position: fixed;
